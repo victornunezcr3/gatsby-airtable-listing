@@ -7,16 +7,17 @@ export default ({ data }) => {
   return (
     <Layout>
       <SiteMetadata
-        title="Travel destinations"
-        description="Check the most popular travel destinations in Europe."
+        title="Finca diez digital"
+        description="Directorio comercial de Finca 10"
         image={data.hero.url}
       />
 
       <Hero
         image={data.hero}
-        tag="#travel"
-        title="Travel destinations"
-        description="Check the most popular travel locations in Europe."
+        tag="Avisos económicos"
+        title="Finca diez digital, Directorio Comercial
+              | Listado de Negocios y Servicios"
+        description="Sitio de promocion del comercio en la localidad"
       />
 
       <Cards nodes={data.items.nodes} />

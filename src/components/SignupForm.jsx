@@ -2,15 +2,20 @@ import React from "react"
 
 export const SignupForm = () => {
   return (
-    <form action="//" target="_blank" method="post">
+    <form
+      action="//"
+      target="_blank"
+      method="post"
+      name="contact"
+      data-netlify="true"
+    >
       <div className="flex flex-wrap lg:justify-between lg:items-center">
         <div>
           <h3 className="text-2xl lg:text-4xl font-bold text-blue-500 dark:text-blue-400 tracking-tight">
-            Sign up for our newsletter
+            Suscribirse para recibir informacion
           </h3>
           <p className="text-blue-800 dark:text-blue-500 font-medium text-base lg:text-lg pb-4 lg:pb-0 pt-1">
-            Every 2 weeks we'll send you a list of a popular and new
-            destinations.
+            Recibirá promociones y noticias de nuevo eventos en la zona
           </p>
         </div>
         <div className="flex w-full md:w-1/2 lg:w-auto">
@@ -26,7 +31,7 @@ export const SignupForm = () => {
           <input
             className="rounded-r-lg text-center px-4 py-1 leading-loose text-lg font-medium transition-colors duration-200 focus:outline-none focus:shadow-outline bg-blue-700 dark:bg-blue-400 text-white dark:text-blue-900 cursor-pointer hover:bg-blue-500"
             type="submit"
-            value="Sign up"
+            value="Enviar"
           />
         </div>
       </div>

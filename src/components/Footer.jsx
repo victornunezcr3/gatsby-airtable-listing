@@ -53,7 +53,8 @@ export const Footer = () => {
           />
         </ul>
         <div className="w-full lg:w-auto pt-6 lg:pt-0 text-blue-800 dark:text-blue-500 text-sm">
-          &copy; 2020 All rights reserved.
+          <p>Contacto: tel= +506 7151 0753</p>
+          <p>&copy; 2022 All rights reserved. | Ing. Victor Ml. Nuñez</p>
         </div>
       </div>
     </footer>
