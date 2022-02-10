@@ -9,7 +9,7 @@ module.exports = {
       twitter: "https://twitter.com/IngvictorManue4",
     },
     locale: "en",
-    title: "Travel destinations",
+    title: "Comercio - Servicios",
   },
   plugins: [
     {
