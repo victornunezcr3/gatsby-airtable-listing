@@ -28,7 +28,13 @@ export const Hero = (props) => {
         ></div>
 
         <span className="absolute top-0 right-0 bg-red-700 text-sm text-white font-medium px-3 py-1 rounded-lg m-4 tracking-wide">
-          <a href="https://avisoseconomicos.netlify.app/">{tag}</a>
+          <a
+            href="https://avisoseconomicos.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {tag}
+          </a>
         </span>
 
         <div className="absolute bottom-0 inset-x-0 p-5 lg:p-6 text-white">
