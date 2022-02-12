@@ -2,7 +2,7 @@ import React from "react"
 
 export const SignupForm = () => {
   return (
-    <form name="contact" method="post" data-netlify="true">
+    <form name="contact" method="post" data-netlify="false">
       <div className="flex flex-wrap lg:justify-between lg:items-center">
         <div>
           <h3 className="text-2xl lg:text-4xl font-bold text-blue-500 dark:text-blue-400 tracking-tight">
