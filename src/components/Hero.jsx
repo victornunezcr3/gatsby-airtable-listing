@@ -32,6 +32,7 @@ export const Hero = (props) => {
             href="https://avisoseconomicos.netlify.app/"
             target="_blank"
             rel="noreferrer"
+            type="buttom"
           >
             {tag}
           </a>
